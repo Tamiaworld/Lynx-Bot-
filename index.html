@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07110b">
+  <meta name="description" content="LYNX BOT: herramientas para mejorar tu comunidad de Discord.">
+  <title>LYNX BOT | Oficial</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #07110b;
+      color: #f4fff5;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #1d3926;
+    }
+
+    .logo {
+      color: #65ff85;
+      font-size: 23px;
+      font-weight: 900;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: #c8d8cb;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 14px;
+    }
+
+    .hero {
+      min-height: 75vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 65px 20px;
+      background: radial-gradient(ellipse at center, #153721 0%, #07110b 70%);
+    }
+
+    .badge {
+      color: #75ff91;
+      border: 1px solid #326e43;
+      border-radius: 30px;
+      padding: 7px 16px;
+      font-size: 12px;
+      margin-bottom: 25px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 9vw, 76px);
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+
+    h1 span {
+      color: #65ff85;
+    }
+
+    .hero p {
+      max-width: 600px;
+      color: #b4c7b8;
+      font-size: 17px;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #65ff85;
+      color: #07110b;
+      padding: 14px 25px;
+      border-radius: 9px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 5px;
+    }
+
+    .secondary {
+      background: transparent;
+      color: white;
+      border: 1px solid #45664c;
+    }
+
+    section {
+      padding: 65px 8%;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-bottom: 12px;
+    }
+
+    .subtitle {
+      color: #a9b9ac;
+      margin-bottom: 35px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      text-align: left;
+    }
+
+    .card {
+      padding: 25px;
+      background: #0e1c12;
+      border: 1px solid #203c28;
+      border-radius: 14px;
+    }
+
+    .card .icon {
+      font-size: 30px;
+    }
+
+    .card h3 {
+      margin: 12px 0 8px;
+      color: #75ff91;
+    }
+
+    .card p {
+      color: #b4c7b8;
+      font-size: 14px;
+    }
+
+    footer {
+      padding: 30px 15px;
+      text-align: center;
+      border-top: 1px solid #1d3926;
+      color: #91a394;
+      font-size: 13px;
+    }
+
+    footer a {
+      color: #75ff91;
+      margin: 0 8px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">🐺 LYNX BOT</div>
+    <nav>
+      <a href="#funciones">Funciones</a>
+      <a href="#nosotros">Proyecto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="nosotros">
+      <div class="badge">● UNA NUEVA ERA PARA DISCORD</div>
+
+      <h1>Tu comunidad.<br><span>Tu control.</span></h1>
+
+      <p>
+        Descubre LYNX BOT, un proyecto creado para llevar la
+        administración de tu servidor de Discord a otro nivel.
+        Más organización, más posibilidades y una identidad única.
+      </p>
+
+      <a class="button" href="#funciones">Descubrir funciones ↓</a>
+      <a class="button secondary"
+         href="https://discord.com/developers/applications">
+         Portal de Discord
+      </a>
+    </section>
+
+    <section id="funciones">
+      <h2>Todo bajo control.</h2>
+      <p class="subtitle">
+        Herramientas pensadas para las necesidades de tu comunidad.
+      </p>
+
+      <div class="features">
+        <article class="card">
+          <div class="icon">🛡️</div>
+          <h3>Moderación</h3>
+          <p>Herramientas para ayudar a mantener una comunidad organizada.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🎫</div>
+          <h3>Sistema de tickets</h3>
+          <p>Una forma organizada de gestionar solicitudes y soporte.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">⚙️</div>
+          <h3>Administración</h3>
+          <p>Funciones para facilitar las tareas del equipo de tu servidor.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">📢</div>
+          <h3>Anuncios</h3>
+          <p>Herramientas para mantener informados a los miembros.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>La evolución comienza aquí.</h2>
+      <p class="subtitle">
+        LYNX BOT — Velocidad. Control. Evolución.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 LYNX BOT. Proyecto independiente.</p>
+    <br>
+    <a href="terms.html">Condiciones del Servicio</a>
+    <a href="privacy.html">Política de Privacidad</a>
+  </footer>
+</body>
+</html>
